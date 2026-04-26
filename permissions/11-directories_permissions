@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -type d -exec chmod a+x {} \;
+find . -mindepth 1 -type d -exec chmod a+x {} +
