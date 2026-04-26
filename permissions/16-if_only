@@ -1,4 +1,2 @@
 #!/bin/bash
-if [ "$(stat -c %U hello)" = "guillaume" ] 
-then chown vincent hello
-fi
+find . -maxdepth 1 -user guilluame -name hello -exec chown vincent {} \;
