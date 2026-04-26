@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -user guilluame -name hello -exec chown vincent {} \;
+find . -maxdepth 1 -user guillaume -name hello -exec chown vincent {} \;
